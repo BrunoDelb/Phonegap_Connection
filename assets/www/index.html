@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" />
+        <title>PhoneGap Connection</title>
+    </head>
+    <body>
+		<div data-role="page">
+			<div data-role="header" data-position="fixed">
+				<h1>Connexion</h1>
+			</div>
+			<div data-role="content">
+				<div id="network">
+					<h3>Type de connexion réseau:</h3>
+					<a data-role="button" id="btnTeste" data-theme="e">Tester</a>
+					<p id="online">Connecté</p>
+					<p id="offline">Déconnecté</p>
+				</div>
+			</div> 
+			<div data-role="footer" data-position="fixed" id="footer">
+			</div>
+		</div>
+        <script type="text/javascript" src="cordova-2.7.0.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="app.js"></script>
+    </body>
+</html>
